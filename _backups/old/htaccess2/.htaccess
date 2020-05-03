@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?design-refinery.com$
+RewriteRule ^(/)?$ designrefinery [L]

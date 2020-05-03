@@ -1,0 +1,240 @@
+.headerimg {
+	background-position: center center;
+	background-repeat: repeat;
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-color: #666;
+}
+#headerimgs {
+	background-color: #0C3;
+}
+
+
+/* HEADER TEXT */
+#headertxt {
+	position:absolute;
+	left: 20px;
+	bottom: 40px;
+}
+#firstline {
+	padding:0;
+	float:left;
+	display:block;
+}
+#secondline {
+	text-decoration:none;
+	float:left;
+	display:block;
+	clear: both;
+}
+
+.pictured {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color:#CC3333;
+	color:#FFF;
+	font-size:12px;
+	padding:9px 16px;
+	float:left;
+	display:block;
+	clear:both;
+	margin-top:10px;
+}
+.pictured a { font-size:16px; font-style:italic; letter-spacing:0; text-transform:none; color:#FFF; text-decoration:none; }
+.pictured a:hover {
+}
+
+/* CONTROLS */
+.btn {
+	height:100%;
+	width:200px;
+	cursor:pointer;
+	position: absolute;
+	left: 20px;
+	top: 30px;
+	background-image: url(../images/arrow2-prev.png);
+	background-position: center center;
+}
+.btn2 {
+	height:100%;
+	width:200px;
+	cursor:pointer;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	background-image: url(../images/arrow2-next.png);
+	background-position: center center;
+}
+.hover {
+	display: none;
+	height: 100%;
+	width: 200px;
+	background-image: url(../images/arrow2-prev-o.png);
+	background-position: center center;
+	position: absolute;
+	right: 0px;
+}
+
+.hover2 {
+	display: none;
+	height: 100%;
+	background-image: url(../images/arrow2-next-o.png);
+	background-position: center center;
+	position: absolute;
+	width: 200px;
+	left: -20px;
+	}
+
+/* HEADER HAVIGATION */
+#headernav-outer {
+
+}
+#headernav {
+	height: 100%;
+}
+
+/* CONTENT */
+#content {
+	color:#575757;
+	background-color:#eee;
+	display: none;
+}
+#content p {
+	padding:10px 20px;
+	font-size:16px;
+	margin:0 auto;
+}
+#content p a { text-decoration:none; color:#CD2B3A; }
+#content p a:hover { text-decoration:underline; color:#7F000C; }
+#top-left-corner {
+	background-image: url(../images/top-left-corner.png);
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	top: 80px;
+	left: 20px;
+}
+#top-right-corner {
+	background-image: url(../images/top-right-corner.png);
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	right: 20px;
+	top: 80px;
+}
+#bottom-left-corner {
+	background-image: url(../images/bottom-left-corner.png);
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	left: 20px;
+	bottom: 20px;
+}
+#bottom-right-corner {
+	background-image: url(../images/bottom-right-corner.png);
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	right: 20px;
+	bottom: 20px;
+}
+#top-margin {
+	height: 80px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	background-image: url(../images/toplogo.png);
+	background-position: center center;
+}
+#bottom-margin {
+	background-color: #FFF;
+	height: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+#left-margin {
+	background-color: #FFF;
+	width: 20px;
+	position: absolute;
+	height: 100%;
+	left: 0px;
+}
+#right-margin {
+	background-color: #FFF;
+	height: 100%;
+	width: 20px;
+	position: absolute;
+	right: 0px;
+}
+/*
+.dhtmlgoodies_question{	
+	background-color:#317082;
+	width:30px;
+	height:30px;
+	overflow:hidden;
+	cursor:pointer;
+	position: absolute;
+}
+
+.dhtmlgoodies_answer{
+	visibility:hidden;
+	height:0px;
+	overflow:hidden;
+	position: relative;
+	top: 80px;
+	font-size: 45px;
+	line-height: 50px;
+	font-style: italic;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-weight: normal;
+	left: 20px;
+
+}
+*/
+
+.dhtmlgoodies_question{
+	/* Start layout CSS */
+	color:#6CC;
+	font-size:0.9em;
+	margin-bottom:2px;
+	margin-top:50px;
+	height:20px;
+	/* End layout CSS */
+	
+	position:absolute;
+	overflow:hidden;
+	cursor:pointer;
+	font-style: italic;
+	margin-left: 40px;
+}
+.dhtmlgoodies_answer {
+	font-size: 35px;
+	line-height: 40px;
+	font-style: normal;
+	font-weight: normal;
+	visibility:hidden;
+	overflow:hidden;
+	position:fixed;
+	top: 80px;
+	left: 20px;
+	margin-left: 20px;
+	margin-right: 40px;
+	text-shadow: 0px 0px 1px;
+	letter-spacing: -1px;
+	padding-bottom: 20px;
+}
+.dhtmlgoodies_answer_content {	/* Content that is slided down */
+	position:relative;
+}

@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+form.expose {
+	border:none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.formtab {
+	width: 500px;
+	color: #4b4b4b;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 12px;
+}
+
+
+
+.formtab input {
+	background-color: #000;
+	padding: 8px;
+	width: 215px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-family: "dejarip-1", "dejarip-2", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	border: none;
+	outline: none;
+}
+.formtab input:hover {
+	background-color: #222;
+}
+.formtab input:focus {
+	background-color: #FFF;
+	color: black;
+}
+
+
+
+.formtab textarea {
+	background-color: #000;
+	border: none;
+	padding: 8px;
+	width: 215px;
+	margin-top: 5px;
+	font-family: "dejarip-1", "dejarip-2", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	height: 247px;
+	max-height: 247px;
+	max-width: 215px;
+	margin-bottom: 10px;
+	outline: none;
+	overflow: hidden;
+}
+.formtab textarea:hover {
+	background-color: #222;
+}
+
+.formtab textarea:focus {
+	background-color: #FFF;
+	color: black;
+}
+
+
+.formtab select {
+	background-color: #000;
+	padding: 7px;
+	width: 215px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-family: "dejarip-1", "dejarip-2", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	border: none;
+	outline: none;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+.formtab select:hover {
+	background-color: #222;
+}
+
+.formtab select:focus {
+	background-color: #FFF;
+	color: #000;
+
+}
+
+
+.formtab input.sumbitted {
+	color: white;
+	cursor: pointer;
+	text-align: left;
+	margin: 0px;
+	background-color: #000;
+	padding: 6px;
+	width: auto;
+}
+.formtab input.sumbitted:hover {
+	color: #FFF;
+	background-color: #222;
+
+
+}
+.formtab p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+.formtab label {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	line-height: 12px;
+	outline: none;
+	display: block;
+}
+.formtab label.inner {
+	display: inline;
+}
+
+.formtab input.opt {
+	height: auto;
+	width: auto;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	margin-right: 4px;
+	padding: 0px;
+	outline: none;
+	border: none;
+	background-color: white;
+	color: black;
+}
+.formtab span {
+	color: #F00;
+}
+.formtab .left {
+	float: left;
+	width: 235px;
+}
+.formtab .right {
+	float: right;
+	width: 235px;
+}
+.formtab option:hover {
+	background-color: #222;
+}
+label.checkboxes {
+	margin-bottom: 5px;
+	display: block;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Freelance graphic and web design | Newcastle upon Tyne | Design Refinery</title>
+
+<meta name="Description" content="Newcastle based freelance graphic and web designer specialising in creative excellence."/> 
+
+<link href="css/refined.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/museo-sans_250-museo-sans_700-museo-sans_400.font.js"></script>
+<script type="text/javascript">
+			Cufon.replace('h1');
+			Cufon.replace('h2');
+			Cufon.replace('p');
+</script>
+        
+</head>
+
+<body>
+
+<div id="logo"> 
+	<a href="#" ><img src="img/design-refinery-logo.png" alt="Design Refinery Logo" width="80" height="80" /></a>
+</div>
+
+<div id="content">
+	<div id="nav">
+    	<a href="#" id="nav-prev"></a>
+    	<a href="#" id="nav-next"></a>
+    </div>
+
+	<div id="slideshow">
+    	<div id="dummy"></div>
+        <div id="images">
+            <img src="portfolio/portfolio-marlena.jpg" alt="" class="first" />
+            <img src="portfolio/portfolio-gdi.jpg" alt="" />
+            <img src="portfolio/portfolio-swissphysio.jpg" alt="" />
+            <img src="portfolio/portfolio-bowtie.jpg" alt="" />
+            <img src="portfolio/portfolio-londoninsulation.jpg" alt="" />
+            <img src="portfolio/portfolio-ncva.jpg" alt="" />
+        </div>
+    </div>
+	<script type="text/javascript">
+        $(document).ready(function() {
+            $('#images').cycle({
+                fx: 	'fade', 
+                next:   '#nav-next',
+                prev:   '#nav-prev',
+                speed:  '500',
+                pause:   1,
+                timeout: 4000,
+                pager:  '#navi'
+            });
+        });
+	</script>
+
+</div>
+
+<div class="dashboard" title="Show footer" style="display: none; "><a href="#">show footer</a></div>
+<div class="dashboard" title="Hide footer" style="display: block; "><a href="#">hide footer</a></div>
+    <script>
+		$('.dashboard').click(function() {
+			$('#footer').fadeToggle('fast', function() {
+			});
+		});
+		
+		$("div.dashboard").click(function () {
+			$("div.dashboard").toggle();
+		});
+	</script>
+
+<div id="footer">
+
+		<div class="footer-wide">
+            <div class="boxed">
+            
+                <h1><strong>design refinery</strong> is a production facility composed of a group of creative unit processes and unit operations refining certain ideas or converting raw concepts into products of value.</h1>
+                <div id="contact">
+                <p>Contact:<br />
+                +44 (0) 7902 433 185<br />
+                hello (at) designrefinery.co.uk</p>
+                </div>
+             
+            </div>
+        </div>
+        
+		<div class="footer-normal">
+            <div class="boxed">
+            
+                <h1 class="padd">Common process units</h1>
+                <p>Brand Strategy &amp; Identity Design</p>
+                <p>Advertising &amp; Print Design</p>
+                <p>SEO-friendly Website Design</p>
+                <p>Standards-based HTML &amp; CSS Front-end Development</p>
+            
+            </div>
+        </div>
+        
+		<div class="footer-narrow">
+            <div class="boxed">
+            
+            <h1 class="padd">Major Products</h1>
+				<div class="col">
+                    <h2>Branding &amp; Identity</h2>
+                    <p>Logo Design<br />
+                    Corporate Stationery</p>
+                </div>
+				<div class="col">
+                    <h2 class="padd">Interactive Design</h2>
+                      <p>Websites<br />
+                      Wordpress Themes<br />
+                      Online Ads<br />
+                      Mailings</p>
+                </div>
+				<div class="col2">
+                    <h2 class="padd">Print Design</h2>
+                      <p>Brochures<br />
+                      Annual Reports<br />
+                      Posters<br />
+                      Adverts<br />
+                      Folders<br />
+                      Packaging<br />
+                      Direct Mail<br />
+                      Books</p>
+                </div>
+            </div>
+        </div>
+        
+		<div class="footer-narrow">
+            <div class="boxed">
+            
+            <h1 class="padd">Specialty End Products</h1>
+                <p>Brand Guidelines</p>
+                <p>E-commerce Websites</p>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+	
+    
+</div>
+
+<script type="text/javascript"> Cufon.now(); </script>
+
+</body>
+</html>

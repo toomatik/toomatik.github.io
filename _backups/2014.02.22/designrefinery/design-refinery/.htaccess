@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^design\-refinery\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.design\-refinery\.com$
+RewriteRule ^/?$ "http\:\/\/www\.designrefinery\.co\.uk\/" [R=301,L]
+
