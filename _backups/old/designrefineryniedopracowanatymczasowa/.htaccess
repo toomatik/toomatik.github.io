@@ -1,6 +1,0 @@
-RewriteEngine on
-Options +FollowSymlinks
-rewritecond %{http_host} ^design-refinery.com [nc]
-rewriterule ^(.*)$ http://www.design-refinery.com/$1 [r=301,nc]
-rewritecond %{http_host} ^designrefinery.co.uk [nc]
-rewriterule ^(.*)$ http://www.designrefinery.co.uk/$1 [r=301,nc]
