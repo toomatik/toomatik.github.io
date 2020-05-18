@@ -14177,7 +14177,7 @@
      * @returns {string} Returns the deburred string.
      * @example
      *
-     * _.deburr('d├®j├á vu');
+     * _.deburr('déjà vu');
      * // => 'deja vu'
      */
     function deburr(string) {
