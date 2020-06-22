@@ -1,0 +1,68 @@
+[33mcommit 4cb3385c9e4cdfe17056ee48a2ef9552fd642f23[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: toomatik <64727381+toomatik@users.noreply.github.com>
+Date:   Mon Jun 22 13:39:14 2020 +0100
+
+    Updated README.md
+
+[33mcommit a6d71eb6da2694264fe97e39a6704ba45dab17ab[m
+Author: toomatik <toomatik@gmail.com>
+Date:   Mon Jun 22 13:28:55 2020 +0100
+
+    update gitignore
+
+[33mcommit 0a5f5019468e4befb167ace78f2fe5bf016b13e0[m
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Mon May 18 13:20:46 2020 +0100
+
+    build script added
+
+[33mcommit 2b1a9f9f64a3ad6a07ab8fc94cb9828738af8a30[m
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Fri May 15 14:28:21 2020 +0100
+
+    lodash depandencies
+
+[33mcommit 9d67afa4608f7e7c6213df39e2e9d48f1d70a8e8[m
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Fri May 15 13:43:02 2020 +0100
+
+    Text update
+
+[33mcommit 78781c6460d99033b051fa1e36dbfce79603c45f[m
+Merge: 451399b ecb69d7
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Fri May 15 13:37:17 2020 +0100
+
+    Merge branch 'master' of https://github.com/toomatik/toomatik.github.io
+
+[33mcommit 451399b0550ef773e35b73b89f0ad84560e1a3c0[m
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Fri May 15 13:37:12 2020 +0100
+
+    Update index.html
+    
+    Body text change
+
+[33mcommit ecb69d7c4cb0d153505bcea07c6bbf4d196d976b[m
+Author: toomatik <64727381+toomatik@users.noreply.github.com>
+Date:   Sun May 3 12:52:24 2020 +0100
+
+    Create README.md
+
+[33mcommit e58cc9dacd1dd74102b1e1c6aaf4695b95de1f4c[m
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Sun May 3 10:42:30 2020 +0100
+
+    boilerplate upload
+
+[33mcommit 3c508a6ddca7ad0439d8c4b5895d497d012271f4[m
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Sun May 3 10:34:04 2020 +0100
+
+    website removed
+
+[33mcommit 69b687ff850ad01497e4f7bbc772aca5a054cfad[m
+Author: designrefinery <matt@designrefinery.co.uk>
+Date:   Sun May 3 10:23:24 2020 +0100
+
+    Uploading website
