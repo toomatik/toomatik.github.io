@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/toomatik/toomatik.github.io#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   }
 }
